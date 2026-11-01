@@ -1,10 +1,10 @@
-import os
 import csv
-import requests
-import json
+import os
 from datetime import datetime
-from dateutil import parser as date_parser
+
+import requests
 from bs4 import BeautifulSoup
+from dateutil import parser as date_parser
 from dotenv import load_dotenv
 
 # Chargement des variables d'environnement
